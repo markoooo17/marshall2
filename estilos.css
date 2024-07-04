@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+    background-image: url(img/fondo.jpg);
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(11, 11, 11);
+}
+
+h1{
+    background-image: url(img/marshall_logo.png);
+    width: 160px;
+    height: 42px;
+    font-size: 0;
+}
+
+.navbar a:hover{
+    color: #edbf27 !important;
+    transition-duration: 0.3s;
+}
+
+.pastillas{
+    border: 0.125rem solid #c9c9c9 ;
+    transition-property: all;
+    transition: .3s ease-in-out .20s;
+}
+
+
+.pastillas:hover{
+    background-color: #e99e12;
+    cursor: pointer;
+    color: white;
+    border: 0.125rem solid #edae27;
+}
+
+.pastillas:hover a{
+    background-color: white;
+    cursor: pointer;
+}
+
+.pastillas a:hover{
+    transform: scale(1.1);
+    color: black !important;
+}
+
+.tarjeta{
+    margin-right: 0.8125rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+
+i{
+    color:#ffffff;
+    font-size: 26px;
+}
+
+#video ul{
+    list-style: none;
+}
+
+.btn-enviar{
+background-color:#edbf27;
+}
+
+.btn-enviar:hover{
+   background-color:#edbf27;
+}
+
+.textoh2{
+    font-weight: 700 ;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.descrips{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.fondo-footer{
+    background-color: rgb(0, 0, 0);
+}
+
+h4{
+    font-weight: 500 ;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.botonestudio{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 ;
+}
+
+.fondodom{
+    background-color:#dfa700 ;
+}
+
+.oscuro .fondodom{
+    background-color:#edbf27 ;
+}
+
+
+.oscuro {
+    background-image: url(img/fondo2.jpg);
+    color: rgb(0, 0, 0);
+    transition: all ease-in-out 0.7s;
+}
+
+.oscuro .card {
+    background-color: #1e1d1d;
+    color: white;
+
+}
+
+.oscuro h2{
+    color: rgb(0, 0, 0);
+}
+
+.oscuro .lead{
+    color: rgb(0, 0, 0);
+}
+
+.oscuro h4{
+    color: rgb(0, 0, 0);
+}
+
+.oscuro .textooscuro{
+    color: rgb(0, 0, 0);
+}
+
+.oculto{
+    display: none !important;
+}
+
+#reservar h2{
+    color: rgb(255, 255, 255);
+}
+#reservar p{
+    color: rgb(255, 255, 255);
+}
+.oscuro #reservar p{
+    color: rgb(255, 255, 255);
+}
+
+.oscuro #reservar h2{
+    color: rgb(255, 255, 255);
+}
+
+.bajo {
+    background-color: rgb(182, 182, 182);
+}
+.guitarra {
+    background-color: #edbf27;
+}
+.bateria {
+    background-color: rgb(122, 122, 122);
+}
+.amplificador {
+    background-color: rgb(248, 167, 92);
+}
+.bajo .card-header {
+    background-color: rgb(153, 152, 152);
+
+}
+.guitarra .card-header {
+    background-color: #d3aa23;
+
+}
+.bateria .card-header {
+    background-color: rgb(95, 95, 95);
+
+}
+.amplificador .card-header {
+    background-color: rgb(221, 149, 82);
+
+}
+
+#noche{
+    color: white;
+}
+
+
+.oscuro .bajo {
+    background-color: rgb(146, 146, 146);
+}
+.oscuro .guitarra {
+    background-color: #cfa723;
+}
+.oscuro .batería {
+    background-color: rgb(102, 102, 102);
+}
+.oscuro .amplificador {
+    background-color: rgb(162, 95, 33);
+}
+.oscuro .bajo .card-header {
+    background-color: rgb(153, 152, 152);
+
+}
+.oscuro .guitarra .card-header {
+    background-color: #b18e1d;
+
+}
+.oscuro .bateria .card-header {
+    background-color: rgb(95, 95, 95);
+
+}
+.oscuro .amplificador .card-header {
+    background-color: rgb(148, 86, 27);
+
+}
+
+#noche{
+    color: white;
+}
+
+.fondoapp{
+    background-color: rgb(22, 22, 22);
+}
+
+.cerrar{
+    color: white;
+}
+
+.botonfooter{
+    display: none;
+}
+
+ul li{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
